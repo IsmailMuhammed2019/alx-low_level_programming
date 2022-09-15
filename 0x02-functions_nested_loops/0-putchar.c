@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * main - entry point
@@ -22,3 +22,5 @@ int main(void)
 	}
 	return (0);
 }
+Footer
+© 2022 GitHub, I
