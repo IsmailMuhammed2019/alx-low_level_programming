@@ -1,33 +1,25 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 
-/* betty style doc for function main goes there */
 /**
- * main - Entry point
+ * main - Entry point for the numbers
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
+	/*delcare variable*/
 	int i;
 
-	i = 48;
-	while  (i < 58)
+	for (i =48; i < 58; i++)
 	{
-		putchar(i);
-		if (i !=  57)
+	putchar(i);
+	if (i != 57)
 		{
-			putchar(44);
-			putchar(32);
-			i++;
-		}
-		else
-		{
-			i++;
+		putchar(',');
+		putchar(' ');
 		}
 	}
-	putchar('\n');
 
+	putchar('\n');
 	return (0);
 }
